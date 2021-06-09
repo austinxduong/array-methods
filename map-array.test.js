@@ -1,6 +1,6 @@
-import map from './map-array.js';
+import { callback } from './map-array.js';
 
-describe('map', () => {
+describe('array methods', () => {
   it('takes an array and callback of signature and creates new array with return value of each called callback', () => {
     const array = [1, 2, 3];
     const actual = callback(array, (num) => num + 1);
