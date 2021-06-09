@@ -13,7 +13,6 @@ export function callback(array, callback) {
   }
   return newArray;
 
-        
 }
 
 
