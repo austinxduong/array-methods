@@ -1,10 +1,10 @@
-import { callback } from './map-array.js';
+import { map } from './map-array.js';
 
 
 describe('array methods', () => {
   it('takes an array and callback of signature and creates new array with return value of each called callback', () => {
     const array = [1, 2, 3];
-    const actual = callback(array, (num) => num + 1);
+    const actual = map(array, (num) => num + 1);
     expect (actual).toEqual([2, 3, 4]);
 
 

@@ -3,7 +3,7 @@
 // }
 
 
-export function callback(array, callback) {
+export function map(array, callback) {
 
   const newArray = [];
 
